@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 0;
+
+}
+
+
+nav {
+  background-color: #232d4d;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  font-family: "Odibee Sans", sans-serif;
+  font-size: 25px;
+
+}
+
+
+
+nav .cabecalho-iara {
+  color: #fff;
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  font-size: 30px;
+}
+
+
+nav a {
+  color: #fff;
+  float: right;
+  text-decoration: none;
+  display: block;
+  padding: 14px 16px;
+}
+
+.btn btn-danger {
+  font-size: 30%;
+}
+
+
+.background-image {
+  background-image: url('videogame.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-shadow: 2px 2px #1D253C;
+  font-family: "Langar", system-ui;
+  text-align: center;
+}
+
+
+#carouselExampleIndicators {
+}
+
+.carousel-item{
+  width: 300px;
+}
+
+.fixed-top {
+  font-size: 100px;
+  font-family: "Langar", system-ui;
+}
+
+.divBotaoCadastro {
+display: block;
+align-content: center;
+padding-top: 5%;
+}
+
+.divCarousel {
+  align-content: top;
+  height: 100%;
+  width: 50%;
+}
+
+
+.neon {
+  display: block;
+  margin: auto;
+  padding: 0.5em 1.5em;
+  font-family: 'open_sansregular';
+  font-size: 1.5em;
+  text-decoration: none;
+  text-shadow: -2px 4px 4px ##FF0000, 0 0 10px #1D253C, inset 1px 1px 1px white;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6),
+    2px 1px 4px rgba(0, 0, 0, 0.3),
+    2px 4px 3px rgba(3, 0, 128, 0.3),
+    0 0 7px 2px rgba(255, 0, 0, 0.6),
+    inset 0 1px 2px rgba(0, 0, 0, 0.6),
+    inset 2px 1px 4px rgba(0, 0, 0, 0.3),
+    inset 2px 4px 3px rgba(3, 0, 128, 0.3),
+    inset 0 0 7px 2px rgba(0, 208, 255, 0.6);
+  animation: piscando 5s infinite;
+}
+
+@keyframes piscando {
+  0% {
+    border-color: transparent;
+    opacity: 0.1;
+  }
+
+  2% {
+    border-color: #1D253CEB;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.5;
+  }
+
+  8% {
+    border-color: #cde0e0;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #ffffff;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.5;
+  }
+
+  36% {
+    border-color: #fff;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #6CE8EB;
+    opacity: 1;
+  }
+}
